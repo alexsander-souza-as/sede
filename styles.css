@@ -1,26 +1,22 @@
 /* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
+    position: absolute;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 20px;
-    position: relative;
     z-index: 1;
 }
 
 /* Background com logo */
 .background {
     position: absolute;
-    top: 2%;
-    left: 40%;
-    width: 75px;
-    height: 75px;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
     background: url(./img/fundo1.png) no-repeat center center;
     background-size: cover;
     z-index: 0;
